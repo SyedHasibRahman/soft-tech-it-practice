@@ -1,0 +1,21 @@
+hide funtion
+show funtion
+Click Function
+	hide,show,toggle
+Slide funtion
+	slideUP, SlideDown, slideToggle
+Fade function
+	fadeIn,fadeOut,fadeToggle
+Hover function
+fadeTo function
+	fadeIn,fadeOut,fadeTo,fadeToggle
+stop function
+empty function
+text function
+html function
+remove function
+attr function
+	addClass,toggleClass,removeAttr
+css function
+append or prepend function
+	after & before

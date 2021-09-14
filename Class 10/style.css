@@ -1,0 +1,195 @@
+body,h1, h2,h3,h4,h5,h6, p, ul,ol, img{
+	margin:0px;
+	padding:0px;
+}
+header{
+	background-color: #3a5795;
+	padding-top:15px;
+	padding-bottom:5px;
+}
+header:after{
+	content:'';
+	clear:both;
+	display:block;
+}
+.mid{
+	margin:0px auto;
+	width: 80%;
+}
+.f-logo{
+	width: 60%;
+	float:left;
+	overflow:hidden;
+	margin-top: 12px;
+}
+.sing-in{
+	width: 40%;
+	float:left;
+	overflow:hidden;
+	font-family:tahoma;
+}
+.sing1, .sing2,.sing3{
+	float:left;
+	overflow:hidden;
+	margin-right:10px;
+}
+
+.sing1 input[type="email"], .sing2 input{
+	display:block;
+	margin:3px 0px;
+	border: 1px solid #000;
+	padding:2px 0px;
+}
+.sing1 label:first-child,
+.sing2 label{
+	color:#FFF;
+	font-size:13px;
+}
+.sing1 label:last-child,
+.sing2 a{
+	font-size:13px;
+	color:#eee;
+}
+
+.sing2 a{
+	text-decoration:none;
+}
+.sing2 a:hover{
+	text-decoration:underline;
+}
+
+.sing1 input[type="checkbox"]{
+	float:left;
+	margin-top:6px;
+	margin-right:4px;
+}
+.sing3 {
+	margin-top:21px;
+}
+.sing3 input:hover{
+	color:#333;
+	background:pink;
+	transition:1s;
+}
+.sing3 input{
+	font-weight:bold;
+	font-size:15px;
+	font-family:ahoroni;
+	background-color: #867554;
+	color:#FFF;
+	border:1px solid #000;
+}
+
+/* Fb body style start */
+.fb-body{
+	background-color: #888;
+}
+.fb-body:after{	
+	content:"";
+	display:block;
+	clear:both;
+}
+.fb-body-left{
+	width:60%;
+	float:left;
+	overflow:hidden;
+}
+
+.fb-body-left h2{
+	font-family: ahoroni;
+	font-size:28px;
+	color:#333;
+	font-weight:650;
+	margin-top:40px;
+}
+.icon-sec{
+	margin:30px 0px;
+}
+.icon-sec:after{
+	content:'';
+	display:block;
+	clear:both;
+}
+.icon-sec img{
+	float:left;
+	overflow:hidden;
+}
+.icon-sec p{
+	margin-left:35px;
+	font-family:arial;
+	margin-top:10px;
+	float:left;
+}
+.icon-sec p span{
+	font-weight: 700;
+	margin-right:15px;
+}
+
+/*fb-body-right start*/
+.fb-body-right{
+	width:40%;
+	float:left;
+	overflow:hidden;
+}
+.fb-body-right h2{
+	font-size:35px;
+	font-family:table-caption;
+	padding:10px;
+}
+.fb-body-right p{
+	font-size:15px;
+	font-family:table-caption;
+	padding:10px;
+}
+.sing-up input {
+	width:95%;
+	padding: 8px 0px;
+	border: 1px solid #000;
+	margin: 5px 0px;
+	border-radius:5px;
+}
+.sing-up input[type="text"]{
+	float:left;
+	width:45%;
+	display:block;
+	overflow:hidden; 
+}
+.sing-up input:first-child{
+	margin-right:17px;
+}
+.birthday h3{
+	font-family:arial;
+	font-size:28px;
+	padding: 15px 0px;
+}
+.birthday select,
+.birthday option{
+	font-family:arial;
+	font-size:14px;
+	font-weight:bold;
+	padding: 10px;
+    background: darkorchid;
+	border-radius:5px;
+}
+.birthday a{
+	text-decoration:none;
+	font-family:arial;
+	color:#FFF;
+}
+.birthday a:hover{
+	text-decoration:underline;
+	color:red;
+}
+.fb-body-right input[type="submit"]{
+	padding:10px 20px;
+	font-family:arial;
+	font-size:15px;
+	border:none;
+	border-radius:3px;
+}
+.fb-body-right input[type="submit"]:hover{
+	cursor:pointer;
+	color:#FFF;
+	background:blue;	
+	transition: 2s;
+}

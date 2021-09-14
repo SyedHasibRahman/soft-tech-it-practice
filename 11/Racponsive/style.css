@@ -1,0 +1,38 @@
+body{
+	margin:0px;
+	padding:0px;
+	
+}
+.box{
+	background-color:red;
+	height:300px;
+	width:300px;
+	margin: 0 auto;
+	transition:2s;
+}
+.box:hover{
+	background-color:#333;
+}
+@media all and ( max-width : 1000px ){ 
+	.box{ 
+		background-color:yellow;
+		width:80%;
+	}
+	.box:hover{
+		background-color:blue;
+		border-radius:20px;
+	}
+}
+
+@media all and ( max-width : 380px ){
+	.box{
+		background-color:pink;
+		border-radius:50%;
+		
+		
+	}
+	.box:hover{
+		background-color:green;
+		border-radius:50%;
+	}
+}

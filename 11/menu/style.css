@@ -1,0 +1,31 @@
+body, ul, li, a{
+	margin:0px;
+	padding:0px;
+}
+
+.mid{
+	width:80%;
+	margin:0px auto;
+}
+.menu-ber{
+	background-color:#9b59b6;
+}
+.menu-ber:after{
+	content:'';
+	display:block;
+	clear:both;
+}
+.menu-ber ul{
+	list-style:none;
+}
+
+.menu-ber ul li{
+	float:left;
+	padding:15px;
+}
+.menu-ber ul li a{
+	color:#FFF;
+	text-decoration:none;
+	font-family:arial;
+	padding:20px 10px;
+}

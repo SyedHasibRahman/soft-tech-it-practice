@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>js practice</title>
+	<link rel="stylesheet" type="text/css" href="style.css" media="all" />
+</head>
+<body>
+	<div class="box"></div>
+	<div class="box2"></div>
+	<div class="box3"></div>
+
+<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript">
+		
+		
+		$(window).scroll(function(){
+			var ww = $(window).scrollTop();
+			$('.box2').text(ww);
+		
+		
+		if(ww >= 500 ){
+			$('.box3').fadeIn(1000);
+		}else{
+			$('.box3').fadeOut(1000);
+		}
+		});
+	</script>	
+</body>
+</html>

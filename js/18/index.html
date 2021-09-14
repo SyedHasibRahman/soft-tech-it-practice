@@ -1,0 +1,97 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>Js 1</title>
+	<link rel="stylesheet" type="text/css" href="style.css" media="all" />
+</head>
+<body>
+	<!-----------------hide funtion
+hide funtion	(
+	$("p").hide();
+show funtion
+	$("p").show();
+Click Function
+	$('a').click(function(){
+		$("p").show();
+		});
+Slide funtion
+	$('a').click(function(){
+		$("p").slideToggle();
+		});
+Fade function
+	$('a').hover(function(){
+		$("p").fadeTo(2000,'.2');
+		});
+stop function
+	$('.aaa').click(function(){
+		$("p").fadeToggle(2000);
+		});
+		$(".bbb").click(function(){
+			$("p").stop();
+		});
+empty function
+		$('.aaa').click(function(){
+		$("p").fadeToggle(2000);
+		});
+		$(".bbb").click(function(){
+			$("p").empty();
+		});
+text function
+	$('.aaa').click(function(){
+		$("p").fadeToggle(2000);
+		});
+		$(".bbb").click(function(){
+			$("p").text('Ami Js Sekhi..........');
+		});
+	
+html function
+	$('.aaa').click(function(){
+		$("p").fadeToggle(2000);
+		});
+		$(".bbb").click(function(){
+			$("p").html('<h3>Ami Js Sekhi..........</h3>');
+		});
+attr function
+	$('.aaa').click(function(){
+		$("p").fadeToggle(2000);
+		});
+		$(".bbb").click(function(){
+			$("p").attr('class', 'ame');
+		});
+css function
+		$(".bbb").click(function(){
+			$("p").css('background-color', 'red');
+		});
+css function
+		$(".bbb").click(function(){
+			$("p").css({
+			'background-color': 'red',
+			'font-family' : 'ahoroni',
+			'font-size' : '16px',
+			'color' : '#FFF'
+			});
+		});
+append or prepend function
+		$('.box a').click(function(){
+		$('.box').append('<input type="file" />')
+	});	
+after & before
+	$('.box a').click(function(){
+		$('.box').after('<input type="file" />')
+	});
+	)------------------>
+	<div class="box">
+		<input type="text" />
+		<a href="#">Add more</a>
+	</div>
+	
+	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript">
+	$('.box a').click(function(){
+		$('.box').before('<input type="file" />')
+	});
+		
+	</script>
+</body>
+</html>
